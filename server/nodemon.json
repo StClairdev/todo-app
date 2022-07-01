@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_USER": "todo-db-admin",
+        "MONGO_PASSWORD": "qrE616YfZ74VkK2d",
+        "MONGO_DB": "tododb"
+    }
+}

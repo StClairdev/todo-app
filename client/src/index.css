@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #25283D;
+    background: #353A47;
+    font-size: 20px;
+}
+
+.App {
+    max-width: 728px;
+    margin: 4rem auto;
+    position: relative;
+}
+
+.App > h1 {
+    text-align: center;
+    margin: 1rem 0;
+    color: #77C1B7;
+}
+
+.Card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #77C1B7;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #333333;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+/* dark purply gray: 25283D */
+
+.Card--text h1 {
+    color: #25283D;
+}
+
+.Card--button button {
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Card--button__delete {
+    border: 1px solid #EF233C;
+    color: #f5f6f7;
+    background-color: #EF233C;
+}
+
+.Card--button__done {
+    border: 1px solid #3DAC1B;
+    background-color: #3DAC1B;
+    color: #f5f6f7;
+    margin-right: 1rem;
+}
+
+.Form {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #2A9D8F;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+}
+/* 54577C*/
+
+.Form > div {
+    padding: 20px;
+}
+
+.Form input {
+    background: #f5f6f7;
+    border: 1px solid #54577C;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 8px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.Form textarea {
+    background: #f5f6f7;
+    border: 1px solid #54577C;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 8px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+.Form button {
+    background: #54577C;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-right: 20px;
+    margin-top: 0px;
+    font-size: 17px;
+    left: 40%;
+    position: relative;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: #54577C !important;
+}
+
+.hide-button {
+    display: none;
+}
+
+.action-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 10px;
+}
+
+.completed-message {
+    padding: 10px;
+    width: 100%;
+    color: #2A9D8F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 800;
+    font-size: 24px;
+}
